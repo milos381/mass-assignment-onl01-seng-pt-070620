@@ -7,6 +7,7 @@ class Person
     attributes.each {|key, value|  self.send(("#{key}="), value)}
 
   end
-
+#self.send(key=, value) is the same as:
+#instance_of_user.key = value
 
 end
